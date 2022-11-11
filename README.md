@@ -1,9 +1,18 @@
-# Next.js Wallet Connect Sample using use-wallet2
+# Next.js Wallet Connect Sample
 
-> include Fantom Testnet, ETHW chain 
+ - project used use-wallet2 module.
+ - use-wallet2 module has forked by use-Wallet
 
-## Using
+## Deployment
 
-`$ yarn add use-wallet2`
+To deploy this project run
 
-`$ yarn dev`
+```bash
+  yarn install
+```
+
+```bash
+  yarn dev
+```
+
+# Sample for connecting multi wallet
