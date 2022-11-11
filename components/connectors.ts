@@ -5,7 +5,7 @@ export const connectors = {
         },
     },
     walletlink: {
-        url: "https://mainnet.infura.io/v3/84842078b09946638c03157f83405213",
+        url: "https://mainnet.infura.io/v3/460f40a260564ac4a4f4b3fffb032dad",
         appName: "WalletConnect",
         chainId: 1,
         appLogoUrl:
@@ -21,10 +21,6 @@ export const connectors = {
     portis: {
         dAppId: "211b48db-e8cc-4b68-82ad-bf781727ea9e",
         chainId: [1],
-    },
-    squarelink: {
-        clientId: "5f2a2233db82b06b24f9",
-        networks: [1],
     },
     walletconnect: {
         chainId: [1], // add here to handle more injected chains

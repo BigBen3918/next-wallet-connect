@@ -45,13 +45,6 @@ export default function Home() {
                 >
                     fortmatic Connect
                 </button>
-                <div className="h-5"></div>
-                <button
-                    className="px-5 py-3 bg-[blue] text-[white] rounded-md"
-                    onClick={() => wallet.connect("frame")}
-                >
-                    frame Connect
-                </button>
 
                 <div className="h-40"></div>
                 <div className="flex justify-center items-center gap-3">
