@@ -13,7 +13,7 @@ export default function Home() {
                 <div className="h-5"></div>
                 <button
                     className="px-5 py-3 bg-[blue] text-[white] rounded-md"
-                    onClick={() => wallet.connect()}
+                    onClick={() => wallet.connect("injected")}
                 >
                     Wallet Connect
                 </button>
@@ -24,17 +24,33 @@ export default function Home() {
                 >
                     Mobile Connect
                 </button>
+                <div className="h-5"></div>
                 <button
                     className="px-5 py-3 bg-[blue] text-[white] rounded-md"
                     onClick={() => wallet.connect("walletlink")}
                 >
                     walletlink Connect
                 </button>
+                <div className="h-5"></div>
                 <button
                     className="px-5 py-3 bg-[blue] text-[white] rounded-md"
-                    onClick={() => wallet.connect("walletconnect")}
+                    onClick={() => wallet.connect("portis")}
                 >
-                    Mobile Connect
+                    portis Connect
+                </button>
+                <div className="h-5"></div>
+                <button
+                    className="px-5 py-3 bg-[blue] text-[white] rounded-md"
+                    onClick={() => wallet.connect("fortmatic")}
+                >
+                    fortmatic Connect
+                </button>
+                <div className="h-5"></div>
+                <button
+                    className="px-5 py-3 bg-[blue] text-[white] rounded-md"
+                    onClick={() => wallet.connect("frame")}
+                >
+                    frame Connect
                 </button>
 
                 <div className="h-40"></div>
