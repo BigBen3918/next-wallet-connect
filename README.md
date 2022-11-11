@@ -15,4 +15,4 @@ To deploy this project run
   yarn dev
 ```
 
-# Sample for connecting multi wallet
+## Sample for connecting multi wallet
