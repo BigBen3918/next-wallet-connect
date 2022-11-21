@@ -17,6 +17,7 @@ export default function Home() {
 
     const checkChainId = async () => {
         if (wallet.status === "connected" && wallet.ethereum) {
+            setOpen(false);
             const provider = new ethers.providers.Web3Provider(wallet.ethereum);
 
             if (wallet.chainId != 4002) {
@@ -55,6 +56,18 @@ export default function Home() {
                 />
                 {styledAddress}
             </button>
+
+            <div className="flex gap-2 pt-10 text-[30px]">
+                <label>FTM balance: </label>
+                <h3 className="font-bold">
+                    {parseFloat(
+                        Number(
+                            ethers.utils.formatEther(wallet.balance)
+                        ).toFixed(3)
+                    )}{" "}
+                    FTM
+                </h3>
+            </div>
 
             {/*  Main modal */}
             <div
