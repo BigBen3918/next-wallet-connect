@@ -1,13 +1,13 @@
 export const connectors = {
     injected: {
         properties: {
-            chainId: [1, 4002, 56, 97], // add here to handle more injected chains
+            chainId: [1, 250, 4002], // add here to handle more injected chains
         },
     },
     walletlink: {
         url: "https://mainnet.infura.io/v3/460f40a260564ac4a4f4b3fffb032dad",
         appName: "WalletConnect",
-        chainId: 1,
+        chainId: [1, 250, 4002],
         appLogoUrl:
             "https://cdn.icon-icons.com/icons2/2407/PNG/512/coinbase_icon_146203.png",
     },
@@ -20,10 +20,10 @@ export const connectors = {
     },
     portis: {
         dAppId: "211b48db-e8cc-4b68-82ad-bf781727ea9e",
-        chainId: [1],
+        chainId: [1, 250, 4002],
     },
     walletconnect: {
-        chainId: [1], // add here to handle more injected chains
+        chainId: [1, 250, 4002], // add here to handle more injected chains
         rpc: {
             "1": "https://mainnet.eth.aragon.network",
         },
